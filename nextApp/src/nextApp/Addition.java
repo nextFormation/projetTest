@@ -30,7 +30,6 @@ public class Addition {
 	public void setNombre2(int nombre2) {
 		this.nombre2 = nombre2;
 	}
-// mon test
 
 	@Override
 	public String toString() {
