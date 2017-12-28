@@ -12,15 +12,12 @@ public class PetitCalculs {
 
 		System.out.println("Entrez le second nombre:");
 		int var2 = Integer.parseInt(sc2.nextLine());
+
+		Addition ResultatAddition = new Addition(var1, var2);
+		Soustraction2Nbres ResultatSoustraction = new Soustraction2Nbres();
 		
-//		int ResultatAddition = var1 + var2 ;
-//		int ResultatSoustraction = var1 - var2 ;
-		
-		Addition ResultatAddition = new Addition(var1 , var2);
-		soustraction2Nbres ResultatSoustraction = new soustraction2Nbres(var1, var2); 
-		
-		System.out.println("Résultat addition ="+ ResultatAddition.afficher());
-		System.out.println("Résultat soustraction ="+ ResultatSoustraction.afficher());
+		System.out.println( ResultatAddition.afficher() );
+		System.out.println("Soustraction = " + ResultatSoustraction.soustraire(var1, var2) );
 		sc1.close();
 		sc2.close();
 	}

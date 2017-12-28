@@ -30,7 +30,6 @@ public class Addition {
 	public void setNombre2(int nombre2) {
 		this.nombre2 = nombre2;
 	}
-//commentaire branchAddition
 
 	@Override
 	public String toString() {
@@ -38,8 +37,8 @@ public class Addition {
 	}
 	
 
-	public void afficher() {
-	    System.out.println(	"La somme est " + (nombre1 + nombre2));
+	public String afficher() {
+	    return(	"La somme est " + (nombre1 + nombre2));
 	}
 	
 }
