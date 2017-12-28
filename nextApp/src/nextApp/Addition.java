@@ -38,7 +38,7 @@ public class Addition {
 	
 
 	public void afficher() {
-	    System.out.println(	"La somme est " + (nombre1 + nombre2));
+	    return(	"La somme est " + (nombre1 + nombre2));
 	}
 	
 }
